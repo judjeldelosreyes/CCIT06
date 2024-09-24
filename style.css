@@ -1,6 +1,6 @@
 #banner{
     height: 90vh;
-    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('foodpanda.jpg');
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('fdhome.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,8 +36,8 @@
     border: 2px solid #333333;
 }
 
-.section{
-    padding: 100px, 0 ;
+section{
+    padding: 100px 0 ;
 }
 
 #specs{
@@ -67,4 +67,39 @@
     background-color: transparent;
     color: #000000;
     border: 2px, solid #333333;
+
+
+    
+}
+#cta{
+    height: 70vh;
+    background: linear-gradient(to right, hsla(0, 67%, 25%, 0.856), rgba(44, 42, 42, 0.315)), url('fd5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.testimonials  {
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+
+.testimonials  img {
+   width: 65px;
+    border-radius: 100px;
+
+
+}
+
+.testimonials  {
+     color: red;
+}
+ 
+#reviews h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color:red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
 }
