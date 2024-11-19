@@ -81,7 +81,7 @@ section{
 
 .testimonials  {
     padding: 30px;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 217, 255);
     border-radius: 30px;
 }
 
@@ -93,13 +93,88 @@ section{
 }
 
 .testimonials  {
-     color: red;
+     color: rgb(0, 0, 0);
 }
  
 #reviews h2 {
     font-size: 55px;
     font-weight: 900;
-    color:red;
+    color:rgb(0, 225, 255);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
+
 }
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+   margin-bottom: 20px;
+   border-radius: 0 !important;
+}
+ 
+.accordion-button {
+   background-color: aqua;
+   border:#000000;
+   border-bottom: 1px #000000;    
+   border-radius: 0 !important;
+   padding: 15px;
+   font-size: 18px;
+   font-weight: 500;
+   color: #333333;
+   cursor: pointer;
+   transition: background-color 0.3s, color 0.3s;
+
+
+}
+
+
+.accordion-body {
+    border-left: 3px #333333;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: aqua;
+}
+
+
+.accordion-button:not(.accordion-button:not(collapsed)) {
+    background-color: aqua;
+    color: rgb(58, 54, 54);
+}
+.accordion-button:hover {
+    background-color: rgb(25, 27, 27);
+    color: rgb(100, 80, 54);
+}
+
+#faq {
+    background-color: rgb(173, 166, 166);
+}
+ footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(141, 127, 127);
+ }
+ #footer ul.list-unstyled li :hover a {
+    color:#ffffff ;
+    text-decoration: none;
+
+
+ }
+ #footer ul.list-unstyled li :hover a {
+    color: aqua(8, 47, 8);
+
+
+ }
+
+ .btn-outline-ligth {
+    border-color: rgb(172, 99, 99);
+    color: azure;
+    border-radius: 0;
+
+
+ }
+
+
+
+
